@@ -1,4 +1,4 @@
-# TP React – Navigation, Médias et Listes Dynamiques
+# TP React – Navigation, rendu conditionnel et intégration des ressources
 
 ## 📌 Description
 
