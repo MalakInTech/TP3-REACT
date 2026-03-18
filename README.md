@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# TP React – Navigation, Médias et Listes Dynamiques
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Description
 
-## Available Scripts
+Ce projet React montre la mise en place d'une **SPA (Single Page Application)** avec **React Router**, le rendu conditionnel, les listes dynamiques, et l'intégration de médias et de styles CSS.  
+Il inclut également des exercices pratiques pour renforcer la compréhension de ces concepts.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 18  
+- React Router v6  
+- CSS pour le style  
+- useState pour l’état local  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Structure du projet
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `App.js` : Composant principal, routes et navigation  
+- `App.css` : Styles globaux  
+- `Accueil.js` : Page d’accueil avec liste de tâches, logo et audio  
+- `Apropos.js` : Page « À propos »  
+- `Connexion.js` : Composant de rendu conditionnel  
+- `ListeTaches.js` : Liste dynamique  
+- `Logo.js` : Composant d’image  
+- `LecteurAudio.js` : Composant audio  
+- Exercices supplémentaires :  
+  - `Notifications.js` : Rendu conditionnel supplémentaire  
+  - `ListeCourses.js` : Liste personnalisée avec props  
+  - `Galerie.js` : Galerie d’images  
+  - `Contact.js` : Nouvelle page avec route `/contact`  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ▶️ Exécution du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Créer le projet :  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx create-react-app tp-navigation
+cd tp-navigation
+npm start
+```
 
-### `npm run eject`
+2. Installer React Router :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install react-router-dom
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Lancer le projet : http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧪 Fonctionnement
 
-## Learn More
+- **Navigation interne** avec `<Link>` et `<Routes>`  
+- **Rendu conditionnel** avec `useState` (Connexion, Notifications)  
+- **Listes dynamiques** avec `map()` (ListeTaches, ListeCourses)  
+- **Médias** : images via import, lecteur audio natif  
+- **Styles CSS** appliqués avec `className`  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔹 Exercices supplémentaires réalisés
 
-### Code Splitting
+### 1️⃣ Rendu conditionnel supplémentaire – Notifications.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 2️⃣ Liste personnalisée – ListeCourses.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 3️⃣ Galerie d’images – Galerie.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### 4️⃣ Nouvelle page Contact – Contact.js
+
+
+
+Ajout dans `App.js` :
+
+
+---
+
+
+
+
